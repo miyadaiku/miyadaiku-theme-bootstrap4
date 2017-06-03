@@ -7,7 +7,7 @@ CSS = 'bootstrap.css'
 JS_MIN = 'bootstrap.min.js'
 JS = 'bootstrap.js'
 
-DEST_PATH = 'static/bootstrap4/'
+DEST_PATH = '/static/bootstrap4/'
 
 def load_package(site):
     f = site.config.get('/', 'bootstrap4_compressed')
