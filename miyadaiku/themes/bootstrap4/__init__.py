@@ -10,8 +10,7 @@ JS = 'bootstrap.js'
 DEST_PATH = '/static/bootstrap4/'
 
 def load_package(site):
-    f = site.config.get('/', 'bootstrap4_compressed')
-    f = config.to_bool(f)
+    f = site.config.getbool('/', 'bootstrap4_compressed')
 
     css = CSS_MIN if f else CSS
     css_path = 'externals/css/'+css
