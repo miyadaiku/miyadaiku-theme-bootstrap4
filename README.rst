@@ -48,3 +48,10 @@ Add following code to your template files.
 
    <!-- include boolstrap4 js -->
    {% include 'bootstrap4_js.html' %}
+
+
+Example
+-------------
+
+https://github.com/miyadaiku/miyadaiku-docs/tree/master/samples/bootstrap4
+
