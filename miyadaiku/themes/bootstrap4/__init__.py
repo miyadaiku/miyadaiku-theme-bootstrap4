@@ -26,3 +26,5 @@ def load_package(site):
     content = get_content_from_package(site, __name__, js_path, DEST_PATH+js, bin_loader)
     site.contents.add(content)
     site.config.add('/', {'bootstrap4_js_path': DEST_PATH+js})
+
+    site.add_template_module('bootstrap4', 'miyadaiku.themes.bootstrap4!macros.html')

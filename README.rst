@@ -37,17 +37,17 @@ Add following code to your template files.
 
 ::
 
-   <!-- include boolstrap4 -->
-   {% include 'bootstrap4_css.html' %}
+  <!-- include boolstrap4 -->
+  {{ bootstrap4.load_css(page) }}
 
-   <!-- include jquery.js -->
-   {% include 'jquery.html' %}
+  <!-- include jquery.js -->
+  {{ jquery.load_js(page) }}
 
-   <!-- include tether.js -->
-   {% include 'tether.html' %}
+  <!-- include tether.js -->
+  {{ tether.load_js(page) }}
 
-   <!-- include boolstrap4 js -->
-   {% include 'bootstrap4_js.html' %}
+  <!-- include boolstrap4 js -->
+  {{ bootstrap4.load_js(page) }}
 
 
 Example
