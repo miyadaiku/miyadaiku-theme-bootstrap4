@@ -22,7 +22,7 @@ copy_files = [
 
 setup(
     name="miyadaiku.themes.bootstrap4",
-    version="0.0.8",
+    version="0.0.9",
     author="Atsuo Ishimoto",
     license="MIT",
     classifiers=[
