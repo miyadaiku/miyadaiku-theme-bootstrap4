@@ -1,6 +1,8 @@
 from miyadaiku.core.contents import bin_loader
 from miyadaiku.core import config
 
+from . __version__ import __version__
+
 CSS_MIN = 'bootstrap.min.css'
 CSS = 'bootstrap.css'
 

@@ -1,3 +1,4 @@
+Pipfile.lock
 node_modules
 *.dll
 *.exe
@@ -10,3 +11,5 @@ build
 .DS_Store
 .cache
 .venv
+outputs
+*.pickle
