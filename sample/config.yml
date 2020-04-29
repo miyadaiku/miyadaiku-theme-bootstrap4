@@ -4,7 +4,7 @@
 site_url: http://localhost:8888/
 
 # Title of the site
-site_title: miyadaiku-themes-popper_js test
+site_title: miyadaiku-theme-bootstrap test
 
 # Default language code
 lang: ja-JP
@@ -17,6 +17,6 @@ timezone: Asia/Tokyo
 
 # List of site theme
 themes:
-  - miyadaiku.themes.bootstrap4
+  - miyadaiku_theme_bootstrap4
   - miyadaiku.themes.pygments
 
