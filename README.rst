@@ -2,7 +2,7 @@
 Bootstrap 4 files for miyadaiku static site generator
 ========================================================
 
-Provides `Bootstrap4 <https://getbootstrap.com/>`__ 4.2.1 CSS and Javascript files.
+Provides `Bootstrap4 <https://getbootstrap.com/>`__ 4.4.1 CSS and Javascript files.
 
 
 Installation
@@ -12,10 +12,8 @@ Use pip command to install Bootstrap 4.
 
 ::
 
-   $ pip3 install miyadaiku.themes.bootstrap4
+   $ pip3 install miyadaiku_theme_bootstrap4
 
-
-`miyadaiku.themes.jquery` and `miyadaiku.themes.popper_js` are also installed automatically.
 
 
 Configuraion
@@ -27,7 +25,7 @@ In your config.yml file of your project, add following configuration at `themes`
 ::
 
    themes:
-     - miyadaiku.themes.bootstrap4    # <---- add this line
+     - miyadaiku_theme_bootstrap4    # <---- add this line
 
 
 Usage
