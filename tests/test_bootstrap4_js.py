@@ -1,8 +1,8 @@
 import pytest
 import pathlib
 
-import miyadaiku.core
-import miyadaiku.core.site  # install pyyaml converter
+#import miyadaiku.core
+#import miyadaiku.core.site  # install pyyaml converter
 
 #miyadaiku.core.SHOW_TRACEBACK = True
 #miyadaiku.core.DEBUG = True
